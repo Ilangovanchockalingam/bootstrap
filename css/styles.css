@@ -45,22 +45,21 @@
 .backgroundproject {
     background: url(./image/grossgasteiger.jpg) ;
     background-size: cover;
-    position: relative;
-    padding-bottom: 50px;
     width: 100%;
 }
 
 .bgcolor {
-    position: absolute;
-    background-color: rgba(137, 43, 226, 0.616);
-    opacity: 50%;
-    height: 600px;
+    background-color: rgba(137, 43, 226, 0.5);
     width: 100%;
 }
 
 .rounded-circle {
     /* width: 300px; */
     clip-path: circle();
+}
+
+#slidearrow {
+    padding: 50px 0px;
 }
 
 .bgbox {
@@ -70,16 +69,16 @@
 
 .arrow {
     background-color: #842DCE;
-    position: absolute;
     width: 20px;
     height: 20px;
     transform: rotate(45deg);
-    top: 480px;
-    left: 560px;
+    margin: auto;
+    margin-top: -10px;
 }
 
 .carousel-indicators {
-    top: 580px;
+    /* top: 580px; */
+    margin-top: 98px;
 }
 
 .latestnews {
